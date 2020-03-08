@@ -1,4 +1,8 @@
-name: 'Whitespace linter'
+name: 'Automatic Whitespace Linter'
+description: 'An easy-to-use command to help developer eliminate trailing whitespace on-the-fly'
+branding:
+  icon: 'git-pull-request'
+  color: 'gray-dark'
 
 inputs:
   github_token:
