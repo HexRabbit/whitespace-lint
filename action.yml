@@ -1,0 +1,14 @@
+name: 'Whitespace linter'
+
+inputs:
+  github_token:
+    description: 'Github access token'
+    required: true
+outputs:
+  is_linted:
+    description: 'Does it linted'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.github_token }}
